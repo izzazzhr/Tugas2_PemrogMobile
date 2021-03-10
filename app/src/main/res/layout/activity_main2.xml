@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/tirto_black"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COVID-19"
+            android:textColor="@color/tirto_white"
+            android:textFontWeight="600"
+            android:fontFamily="@font/pt_sans"
+            android:textSize="12dp"
+            android:layout_marginTop="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/articleTitle"
+            android:layout_width="320dp"
+            android:textColor="@color/tirto_white"
+            android:textFontWeight="900"
+            android:fontFamily="@font/pt_sans"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="Menyelami Isi Pikiran Penganut Konspirasi Anti-COVID dan Anti-Vaksin"
+            android:textSize="22dp"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/subtitle"
+            />
+
+        <ImageView
+            android:id="@+id/articleImage"
+            android:layout_width="335dp"
+            android:layout_height="185dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/covid19"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/articleTitle"/>
+
+        <TextView
+            android:id="@+id/writerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Oleh: Faisal Irfani - 19 Februari 2021"
+            android:textColor="@color/tirto_white"
+            android:textSize="10dp"
+            android:textFontWeight="600"
+            android:fontFamily="@font/pt_sans"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/articleImage" />
+
+        <LinearLayout
+            android:id="@+id/articleLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="10dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.517"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/writerText">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="500"
+                android:fontFamily="@font/pt_sans"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="2dp"
+                android:text="torti.id - Seorang tokoh terpandang di satu perkampungan Kedoya Selatan, Jakarta Barat, menyangkal kehadiran SARS-CoV-2, virus penyebab COVID-19, telah menjangkiti dunia. Sampai pandemi sudah berjalan setahun terakhir, pria berusia 53 tahun ini masih meyakini COVID-19 “sama saja dengan flu biasa”. Ia menyalahkan orang-orang mempercayai virus ini yang “responsnya berlebihan banget.”"
+                android:textSize="14dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="500"
+                android:fontFamily="@font/pt_sans"
+                android:textSize="14dp"
+                android:justificationMode="inter_word"
+                android:text="Warga menghormatinya bukan hanya karena dia pernah ke Mekkah, tapi juga dia pengusaha garmen. Bisnis ini telah digelutinya sejak 15 tahun lalu; dia punya satu gudang dan puluhan pekerja dari lingkungan dekat rumahnya."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:justificationMode="inter_word"
+                android:textFontWeight="500"
+                android:fontFamily="@font/pt_sans"
+                android:layout_marginTop="3dp"
+                android:text="Bisnis ini harusnya lancar, tapi pandemi COVID-19 telah mengubah peruntungannya sebagaimana juga membuat kalang kabut hajat hidup banyak orang. Usahanya kolaps; dia terpaksa merumahkan setengah pekerjanya."
+                android:textSize="14dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:textStyle="bold"
+                android:fontFamily="@font/pt_sans"
+                android:textSize="14dp"
+                android:justificationMode="inter_word"
+                android:text="Medan Pertempuran Baru dan Lawas: Vaksinasi"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="500"
+                android:fontFamily="@font/pt_sans"
+                android:textSize="14dp"
+                android:justificationMode="inter_word"
+                android:text="Ada yang menyebut pengguna Facebook adalah orang-orang tua, kaum Boomers. Media yang bikin kaya Mark Zuckerberg ini disoroti, salah satunya, ikut menyuburkan bisnis kebencian dan polarisasi. Saya membuat akun baru di Facebook untuk jadi anggota grup Flat Earth Indonesia."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:justificationMode="inter_word"
+                android:fontFamily="@font/pt_sans"
+                android:layout_marginTop="3dp"
+                android:text="Saya mesti mengisi formulir pertanyaan; ada tiga poin, masing-masing menguji pemahaman sekaligus kepercayaan calon anggota akan teori Bumi Datar. Percobaan saya gagal. Saya akhirnya meminta rekan satu kantor untuk mendaftar ke grup ini. Dengan tampilan akun lebih meyakinkan, persetujuan bergabung berjalan mulus."
+                android:textSize="15dp"
+                android:textFontWeight="500"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="500"
+                android:fontFamily="@font/pt_sans"
+                android:textSize="14dp"
+                android:justificationMode="inter_word"
+                android:text="Melalui akun pinjaman itu, cukup mudah menemukan beragam unggahan anti-vaksin COVID-19. Dalam rentang Desember 2020 hingga Februari 2021, atau sejalan kabar distribusi vaksin segera dilakukan pemerintah, ada puluhan unggahan bernada serupa, yakni menolak vaksin COVID-19."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="500"
+                android:fontFamily="@font/pt_sans"
+
+                android:justificationMode="inter_word"
+                android:text="Setiap unggahan anti-vaksin dalam grup ini disambut positif. Apa yang diutarakan seketika dibenarkan, tanpa menggunakan daya nalar apalagi proses verifikasi mengenai sumber rujukan informasi tersebut."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="500"
+                android:fontFamily="@font/pt_sans"
+                android:textSize="14dp"
+                android:justificationMode="inter_word"
+                android:text="Kemunculan media sosial memperluas jangkauan dan resonansi penolakan vaksin. Dalam riset berjudul “The Overlooked Dangers of Anti-vaccination Groups’ Social Media Presence” (2017), Ayelet Evrony dan Arthur Caplan menjelaskan kelompok-kelompok anti-vaksin bermunculan dan melancarkan propagandanya di Facebook."
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="320dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/vaksinasi"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textBeforeImage" />
+
+            <TextView
+                android:id="@+id/textBeforeImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="'Komunikasi Pemerintah Harus Berpijak pada Sains'"
+                android:textSize="15dp"
+                android:textColor="@color/tirto_white"
+
+                android:fontFamily="@font/pt_sans"
+
+                android:textStyle="bold"/>
+
+
+
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="500"
+                android:fontFamily="@font/pt_sans"
+                android:textSize="14dp"
+                android:justificationMode="inter_word"
+                android:text="Riset berjudul “Social Media and Vaccine Hesitancy” (British Medical Journal) yang disusun Steven Lloyd dan Charles Wiysonge menjelaskan informasi keblinger ihwal vaksin bisa menurunkan cakupan vaksinasi. Dengan kata lain, peluang mengakhiri pandemi bisa tersendat akibat menurunnya partisipasi program vaksinasi."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="500"
+                android:fontFamily="@font/pt_sans"
+                android:textSize="14dp"
+                android:justificationMode="inter_word"
+                android:text="Kementerian Kesehatan dan Komite Penasihat Ahli Imunisasi Nasional pernah bikin survei soal vaksinasi pada September 2020. Survei dilakukan terhadap lebih dari 115 ribu responden di 34 provinsi dan 508 kabupaten/ kota. Hasilnya, sekitar 65 persen responden bersedia menerima vaksin COVID-19 jika disediakan pemerintah; 8 persen menolak dan 27 persen menyatakan ragu atas rencana pemerintah mendistribusikan vaksin COVID-19."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="500"
+                android:fontFamily="@font/pt_sans"
+                android:textSize="14dp"
+                android:justificationMode="inter_word"
+                android:text="Saya tertegun. Mungkin tak ada yang mustahil untuk mengubah keyakinan para penganut konspirasi anti-COVID-19 dan anti-vaksin, sementara pada saat yang sama kita terus beradu nasib dengan virus ini dan ancaman kematian, di tengah krisis kepercayaan atas inkompetensi pemerintah menangani pandemi selama setahun terakhir dan entah sampai kapan."
+                />
+
+
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonHome"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:text="kembali ke beranda"
+            android:onClick="homeView"
+            android:textColor="@color/tirto_white"
+            android:textFontWeight="700"
+            android:backgroundTint="@color/tirto_blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.500"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/articleLayout"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:text="Biodata Mahasiswa"
+            android:textColor="@color/tirto_white"
+            android:textFontWeight="700"
+            android:backgroundTint="@color/tirto_blue"
+            android:onClick="bioView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/buttonHome" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

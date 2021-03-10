@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/tirto_black"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/homeSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="TENTANG KAMI"
+            android:textSize="13dp"
+
+            android:fontFamily="@font/pt_sans"
+            android:textColor="@color/tirto_white"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/homeTitle"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/pt_sans"
+            android:textColor="@color/tirto_white"
+            android:text="Jernih, Mengalir, Mencerahkan bersama Torti.id"
+            android:textSize="22dp"
+            android:textFontWeight="800"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/homeSubtitle"
+            />
+
+        <TextView
+            android:id="@+id/dateView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textSize="12dp"
+            android:text="12 Mei 2016"
+            android:textStyle="italic"
+            android:textFontWeight="800"
+            android:fontFamily="@font/pt_sans"
+            android:textColor="@color/tirto_white"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/homeTitle"
+            />
+
+        <TextView
+            android:id="@+id/sumView"
+            android:layout_width="375dp"
+            android:layout_margin="15dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pt_sans"
+            android:textColor="@color/tirto_white"
+            android:textAlignment="center"
+            android:textSize="12dp"
+            android:text="Torti.id menerjemahkan visi mencerahkan itu sebagai keharusan menyajikan tulisan-tulisan yang jernih, mencerahkan, berwawasan, memiliki konteks, mendalam, investigatif, faktual"
+            android:gravity="center_horizontal"
+            android:textStyle="italic"
+            android:background="@color/grey_500"
+            android:padding="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/dateView"/>
+
+        <LinearLayout
+            android:id="@+id/welcomeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sumView">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="600"
+                android:fontFamily="@font/pt_sans"
+                android:justificationMode="inter_word"
+                android:text="Torti.id percaya bahwa laporan-laporan yang tercipta dari kekuatan data, disampaikan secara baik, namun tak abai pada kecepatan adalah sumber informasi yang layak diperoleh oleh masyarakat Indonesia hari ini, terutama para pengambil keputusan, dan pengendali perubahan."
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                tools:layout_editor_absoluteX="68dp"
+                tools:layout_editor_absoluteY="215dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="600"
+                android:fontFamily="@font/pt_sans"
+
+                android:textSize="15dp"
+                android:justificationMode="inter_word"
+                android:text="Torti.id berdiri di atas dan untuk semua golongan, serta non-partisan. Torti.id tidak bekerja untuk kepentingan politik mana pun."
+                android:layout_gravity="center_horizontal"
+                tools:layout_editor_absoluteX="68dp"
+                tools:layout_editor_absoluteY="215dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Salam"
+                android:textColor="@color/tirto_white"
+                android:textFontWeight="600"
+                android:fontFamily="@font/pt_sans"
+                android:textAlignment="viewStart"
+                android:textSize="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_gravity="start"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/tirto_white"
+                android:fontFamily="@font/pt_sans"
+                android:text="Tim Redaksi Torti.id"
+                android:textFontWeight="600"
+
+                android:textAlignment="viewStart"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="start"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:text="Artikel"
+            android:textColor="@color/tirto_white"
+            android:textFontWeight="700"
+            android:backgroundTint="@color/tirto_blue"
+            android:fontFamily="@font/pt_sans"
+            android:onClick="articleView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.500"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/welcomeLayout" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/tirto_blue"
+            android:fontFamily="@font/pt_sans"
+            android:onClick="bioView"
+            android:orientation="horizontal"
+            android:text="Biodata Mahasiswa"
+            android:textColor="@color/tirto_white"
+            android:textFontWeight="700"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button2" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
